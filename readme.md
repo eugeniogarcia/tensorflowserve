@@ -14,11 +14,11 @@ tf.keras.models.save_model(
 )
 ```
 
+Once we have stored the model we can inspect it:
+
 ```sh
 saved_model_cli show --dir C:/Users/Eugenio/AppData/Local/Temp/1 --all
 ```
-
-Once we have stored the model we can inspect it:
 
 ```yml
 MetaGraphDef with tag-set: 'serve' contains the following SignatureDefs:
